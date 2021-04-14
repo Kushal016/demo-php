@@ -1,0 +1,147 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+body{
+	line-height: 35px;
+	background-color:#E6EAE8;  
+}
+.top_bar{
+	position: fixed; 
+	width: 100%;
+	min-width: 1050px: 
+	height: 100px;
+	background-color: #20aae5;
+	border-bottom: 0.25cm solid #1895ca;
+	margin: 0 0 10px 0;
+	display: inline-flex;
+	z-index: 10;
+}
+.logo a{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-left: 10px;
+	font-size: 150%;
+	position: relative;
+	top: 4px;
+	text-shadow: #3952cc 5px 0.5px 0px;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+
+nav{
+	float: right;
+	right: 40px;
+	position: absolute;
+	margin:10px; 
+}
+nav a{
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	position: relative;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px; 
+	overflow: hidden;
+	transition: 0.5s;
+}
+
+nav a:hover{
+	
+	color: #fff;
+	background:#20aae5;
+	box-shadow: 0 0 10px #20aae5, 0 0 40px #20aae5, 0 0 80px #20aae5 ;
+}
+
+.wrapper{
+	margin:0 auto;
+	top: 50px;
+	position: relative;
+	padding: 0 10px;
+	width: 75%;
+	min-width: 950px; 
+}
+.column{
+	background-color: white;
+	padding: 10px;
+	border:1px solid #D3D3D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #D3D3D3;
+	z-index: -1;
+}
+.user_details{
+
+	width: 250px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom:20px; 
+}
+.user_details_left_right{
+	width: 125px;
+	display: inline-block;
+	position: absolute;
+
+}
+.user_details img{
+	height: 125px;
+	border-radius: 5px;
+	margin-right: 7px;
+}
+
+.main_column{
+	float: right;
+	width: 70%;
+	z-index: -1;
+	background-color: #dfe6e9;
+	min-height: 160px;
+	margin-top: 10px;
+}
+.post_form{
+	width: 100%;
+}
+.post_form textarea{
+	width: 82%;
+	height: 60px;
+	border-radius: 5px;
+	margin-right: 5px;
+	border:1px solid #D3D3D3;
+	font-size: 12px;
+}
+.post_form input[type="submit"] {
+	width: 10%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background:linear-gradient(90deg,#20aae5,#55e7fc);
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	color: #fff;
+	text-shadow: #3952cc 0.5px 0.5px 0px;
+	font-size: 90%;
+	position: absolute;
+	outline: 0;
+	margin-top: 20px;
+	margin-left: 5px;
+	transition: 0.5s;
+}
+.post_form input[type="submit"]:hover {
+	box-shadow: 0 0 10px #20aae5, 0 0 10px #20aae5, 0 0 10px #20aae5;
+}
+.status_post{
+	width: 96%;
+	font-size:15px;
+	padding: 8px 5px;
+	min-height: 75px;
+}
+.post_profile_pic {
+	float: left;
+	margin-right: 7px;
+}
+.post_profile_pic img{
+	border-radius: 25px;
+}
